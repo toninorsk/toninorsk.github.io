@@ -20,7 +20,7 @@ function calAge() {
 }
 
 function loadProfile() {
-    const name "Nattawoot";
+    const name = "Tony";
     const province = "Ratchaburi";
 
     document.getElementById('my-name').innerHTML = name;
