@@ -16,7 +16,7 @@ function calAge() {
     const numBirthYear = Number(birthYear);
     const text = "Congrat, you have been here in this country for";
     const age = 2022 - numBirthYear;
-    alert(`${text} ${age}` + " years");
+    alert(`${text} ${age}` + " years!");
 }
 
 function loadProfile() {
