@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+    <link rel="stylesheet" href="https://unpkg.com/reset-css@5.0.1/reset.css" />
+  </head>
+  <body>
+    <form action="/test">
+      <label>Username</label>
+      <input type="username" /><br />
+      <label>Password</label>
+      <input type="password" /><br />
+
+      <label>Name</label>
+      <input name="name1" type="text" placeholder="first name" />
+      <input name="name2" type="text" placeholder="last name" /> <br />
+
+      <label>Address</label>
+      <input type="address" placeholder="address" /><br />
+      <label>City</label>
+      <select required>
+        <option>Kanchanaburi</option>
+        <option>Bangkok</option>
+        <option>Corat</option>
+        <option>Dream city</option></select
+      ><br />
+      <label>Country</label>
+      <select required>
+        <option>Argentina</option>
+        <option>America</option>
+        <option>Brazil</option>
+        <option>Canada</option></select
+      ><br />
+      <button type="submit">Submit</button>
+    </form>
+    <a href="profile.html"><button>Profile</button></a>
+  </body>
+</html>
